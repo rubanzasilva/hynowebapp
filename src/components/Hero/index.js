@@ -10,13 +10,13 @@ import { BtnWrap } from '../Section/SectionElements.js';
 const { Title } = Typography;
 
 
-const HeroCategory = ({title,headline,buttonText}) => {
+const HeroCategory = ({title,headline,buttonText,video}) => {
 
     return (
         <HeroContainer id="heroContainer">
         <HeroBg>
             {/* <VideoBg autoPlay loop muted src={video} type='video/mp4'    /> */}
-            <VideoBg autoPlay loop muted src={Video} type='video/mp4'    />
+            <VideoBg autoPlay loop muted src={video} type='video/mp4'    />
         </HeroBg>
 
         <HeroWrapper>
