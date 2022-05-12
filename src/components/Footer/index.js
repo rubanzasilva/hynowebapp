@@ -1,6 +1,6 @@
 import React from 'react';
 import {FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLinkTitle,FooterLink,SocialMedia,SocialMediaWrap,SocialLogo,SocialIcons,SocialIconLink,WebsiteRights} from './FooterElements';
-import {FaFacebook,FaInstagram,FaWhatsapp,FaTwitter} from 'react-icons/fa';
+import {FaFacebook,FaInstagram,FaWhatsapp,FaTwitter,FaTiktok} from 'react-icons/fa';
 const Footer = () => {
     return (
         <FooterContainer>
@@ -68,17 +68,17 @@ const Footer = () => {
                     <WebsiteRights>HYPNO © {new Date().getFullYear()}
                     All rights reserved.</WebsiteRights>
                     <SocialIcons>
-                        <SocialIconLink href="/" target="_blank" arial-label="Facebook">
+                        <SocialIconLink href="https://www.facebook.com/hypnoug" target="_blank" arial-label="Facebook">
                             <FaFacebook/>
                         </SocialIconLink>
-                        <SocialIconLink href="/" target="_blank" arial-label="Instagram">
+                        <SocialIconLink href="https://www.instagram.com/hypnoenergyug/" target="_blank" arial-label="Instagram">
                             <FaInstagram/>
                         </SocialIconLink>
-                        <SocialIconLink href="/" target="_blank" arial-label="Twitter">
+                        <SocialIconLink href="https://twitter.com/hypnoug" target="_blank" arial-label="Twitter">
                             <FaTwitter/>
                         </SocialIconLink>
-                        <SocialIconLink href="/" target="_blank" arial-label="Whatsapp">
-                            <FaWhatsapp/>
+                        <SocialIconLink href="https://www.tiktok.com/@hypnoug" target="_blank" arial-label="tiktok">
+                            <FaTiktok/>
                         </SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>
