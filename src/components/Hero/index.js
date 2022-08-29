@@ -16,7 +16,7 @@ const HeroCategory = ({title,headline,buttonText,video}) => {
         <HeroContainer id="heroContainer">
         <HeroBg>
             {/* <VideoBg autoPlay loop muted src={video} type='video/mp4'    /> */}
-            <VideoBg autoPlay loop muted src={video} type='video/mp4'    />
+            <VideoBg autoPlay loop muted src={'https://d322abd807wvow.cloudfront.net/hypno/video.mp4'} type='video/mp4'    />
         </HeroBg>
 
         <HeroWrapper>
