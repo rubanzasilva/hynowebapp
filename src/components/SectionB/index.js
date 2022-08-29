@@ -30,8 +30,8 @@ const SectionB = ({title,headline,description,img,alt}) => {
                          <Title level={2} style={{color:"white"}}>{headline}</Title>
                      
                      <BtnWrap>
-                     <Button type="link" size="large" style={{color:"red",background:"#000",
-                       borderRadius:"6px",minWidth:"100px" }}>SHOP NOW</Button><br></br>
+                     <Button type="link" size="large"  href='https://www.jumia.ug/hypno-energy-drink-250-ml-can-32244325.html' style={{color:"red",background:"#000",
+                       borderRadius:"6px",minWidth:"100px" }}>Contact Us</Button><br></br>
                      {/* <Button type="primary" size="large" style={{background:"#cf1322",
                       borderColor:"red",minWidth:"200px" , borderRadius:"6px" }}>
                          Learn more
