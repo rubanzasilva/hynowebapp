@@ -6,20 +6,29 @@ import styled from "styled-components";
 //  display:grid;
 // `
 export const GridWrapper = styled.ul`
- display:grid;
+ ${'' /* display:grid;
  grid-template-columns:1fr 1fr;
  background-color:#000;
  height:100%;
  width:100%;
  list-style-type:none;
- padding-left:156px;
+ padding-left:156px; */}
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ background-color:#000;
+ list-style-type:none;
+ margin:56px;
  
 
 @media screen and (max-width:960px) {
-    grid-template-columns:1fr;
+    ${'' /* grid-template-columns:1fr;
     padding:10px;
     align-items:Center;
+    text-align:Center; */}
+    grid-template-columns:1fr;
+    align-items:Center;
     text-align:Center;
+    margin:16px;
 }
 `
 
