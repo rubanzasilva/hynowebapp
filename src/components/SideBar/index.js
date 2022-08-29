@@ -16,7 +16,7 @@ const SideBar = ({isOpen,toggle}) => {
                     About HYPNO
                     </SideBarLink>
                     
-                    <SideBarLink to="/shop" onClick={toggle}>
+                    <SideBarLink to="https://www.jumia.ug/hypno-energy-drink-250-ml-can-32244325.html" onClick={toggle}>
                     Shop
                     </SideBarLink>
 

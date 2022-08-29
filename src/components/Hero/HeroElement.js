@@ -46,8 +46,8 @@ export const VideoBg = styled.video`
  opacity:0.4;
 `
 export const HeroWrapper = styled.div`
-z-index:3;
- max-width:1200px;
+${'' /* z-index:3; */}
+ ${'' /* max-width:1200px; */}
  position:absolute;
  padding:8px 24px;
  display:flex;
