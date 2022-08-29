@@ -6,13 +6,19 @@ import styled from "styled-components";
 //  display:grid;
 // `
 export const GridWrapper = styled.ul`
- display:grid;
+ ${'' /* display:grid;
  grid-template-columns:1fr 1fr;
  background-color:#000;
  height:100%;
  width:100%;
  list-style-type:none;
- padding-left:156px;
+ padding-left:156px; */}
+
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ background-color:#000;
+ list-style-type:none;
+ margin:56px;
  
 
 @media screen and (max-width:960px) {
@@ -26,7 +32,7 @@ export const GridWrapper = styled.ul`
 
 export const GridItem = styled.li`
 background-color:#000;
-width:96%;
+width:100%;
 height:90%;
 text-align:center;
 padding:64px;

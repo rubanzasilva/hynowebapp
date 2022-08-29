@@ -44,7 +44,7 @@ const NavBar = ({toggle}) => {
 
                   <NavBtn>
                       {/* <NavBtnLink to="/signin"> SIGN IN </NavBtnLink> */}
-                      <Button type="link" size="large" style={{color:"red",
+                      <Button type="link" size="large" href='https://www.jumia.ug/hypno-energy-drink-250-ml-can-32244325.html' style={{color:"red",
                        borderRadius:"6px" }}>SHOP NOW</Button>
                   </NavBtn>
                   
