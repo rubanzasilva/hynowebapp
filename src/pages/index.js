@@ -28,7 +28,7 @@ const Home = () => {
         <SectionB {...homeObjZ}/>
         <Ingredients {...homeObjY} />
         <Section {...homeObjB} />
-        <Section {...homeObjC} />
+        {/* <Section {...homeObjC} /> */}
 
         
 
