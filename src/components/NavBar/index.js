@@ -22,21 +22,21 @@ const NavBar = ({toggle}) => {
 
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="/About ">ABOUT HYPNO ENERGY</NavLinks>
+                          <NavLinks to="/About ">About Hypno Energy</NavLinks>
                       </NavItem>
                       
                    
 
                       <NavItem>
-                          <NavLinks to="/Shop">EVENTS</NavLinks>
+                          <NavLinks to="/Shop">Events</NavLinks>
                       </NavItem>
 
                       <NavItem>
-                          <NavLinks to="/Cart">FIND WHOLESALERS</NavLinks>
+                          <NavLinks to="/Cart">Become Distributor</NavLinks>
                       </NavItem>
 
                       <NavItem>
-                          <NavLinks to="/Cart">CONTACT US</NavLinks>
+                          <NavLinks to="/Cart">Contact Us</NavLinks>
                       </NavItem>
 
 
@@ -45,7 +45,7 @@ const NavBar = ({toggle}) => {
                   <NavBtn>
                       {/* <NavBtnLink to="/signin"> SIGN IN </NavBtnLink> */}
                       <Button type="link" size="large" href='https://www.jumia.ug/hypno-energy-drink-250-ml-can-32244325.html' style={{color:"red",
-                       borderRadius:"6px" }}>SHOP NOW</Button>
+                       borderRadius:"6px" }}>Shop Now</Button>
                   </NavBtn>
                   
               </NavBarContainer>

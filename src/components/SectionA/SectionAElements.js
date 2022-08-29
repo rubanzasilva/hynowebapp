@@ -22,10 +22,15 @@ export const GridWrapper = styled.ul`
  
 
 @media screen and (max-width:960px) {
-    grid-template-columns:1fr;
+    ${'' /* grid-template-columns:1fr;
     padding:10px;
     align-items:Center;
+    text-align:Center; */}
+
+    grid-template-columns:1fr;
+    align-items:Center;
     text-align:Center;
+    margin:16px;
 }
 `
 
