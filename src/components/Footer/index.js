@@ -10,53 +10,46 @@ const Footer = () => {
                 <FooterLinksWrapper>
 
                  <FooterLinkItems>
-                     <FooterLinkTitle>ABOUT HYPNO</FooterLinkTitle>
-                     <FooterLink to="/about-us">History</FooterLink>
-                     <FooterLink to="/about-us">Our Product</FooterLink>
-                     {/* <FooterLink to="/about-us">Testimonials</FooterLink>
-                     <FooterLink to="/about-us">Terms and Conditions</FooterLink> */}
+
+                     <FooterLinkTitle>About Hypno</FooterLinkTitle>
+   
+                     <FooterLink to="/about-us">Career</FooterLink>
+                     <FooterLink to="https://www.jumia.ug/hypno-energy-drink-250-ml-can-32244325.html">Shop Online</FooterLink>
+                     <FooterLink to="/about-us">Privacy Policy</FooterLink>
+                     <FooterLink to="/about-us">Terms & Conditions</FooterLink>
+
+                
                  </FooterLinkItems>
 
-                 <FooterLinkItems>
+                 {/* <FooterLinkItems>
 
                      <FooterLinkTitle>BECOME A WHOLESALER</FooterLinkTitle>
    
                      <FooterLink to="/about-us">Contact Us</FooterLink>
-                     <FooterLink to="/about-us">Find a wholesaler near you</FooterLink>
-                     {/* <FooterLink to="/about-us">Roasted Coffee</FooterLink> */}
-                     {/* <FooterLink to="/about-us">Roastery</FooterLink> */}
-                     
+                     <FooterLink to="/about-us">Find Wholesaler</FooterLink>
+                     <FooterLink to="/about-us">Become Distributor</FooterLink>
+                
+                 </FooterLinkItems> */}
 
-                 </FooterLinkItems>
-
+ 
                 </FooterLinksWrapper>
 
 {/* second footer link wrapper */}
                 <FooterLinksWrapper>
 
-                 <FooterLinkItems>
+                <FooterLinkItems>
 
-                     <FooterLinkTitle>INGREDIENTS</FooterLinkTitle>
+                     <FooterLinkTitle>About Hypno</FooterLinkTitle>
    
-                     <FooterLink to="/about-us">Caffeine</FooterLink>
-                     <FooterLink to="/about-us">B Group vitamins</FooterLink>
-                     {/* <FooterLink to="/about-us">Sugar</FooterLink>
-                     <FooterLink to="/about-us">Taurine</FooterLink> */}
-                     
+                     <FooterLink to="/about-us">Contact Us</FooterLink>
+                     <FooterLink to="/about-us">Find Wholesaler</FooterLink>
+                     <FooterLink to="/about-us">Become Distributor</FooterLink>
+                     <FooterLink to="/about-us">Map</FooterLink>
 
+                
                  </FooterLinkItems>
 
-                 <FooterLinkItems>
-
-                     <FooterLinkTitle>REACH US</FooterLinkTitle>
-   
-                     <FooterLink to="/about-us">Contact us</FooterLink>
-                     <FooterLink to="/about-us">Blog</FooterLink>
-                     {/* <FooterLink to="/about-us">Hypno Merchandise</FooterLink>
-                     <FooterLink to="/about-us">Careers</FooterLink> */}
-                     
-
-                 </FooterLinkItems>
+                 
 
                 </FooterLinksWrapper>
 
@@ -64,9 +57,9 @@ const Footer = () => {
 
             <SocialMedia>
                 <SocialMediaWrap>
-                    <SocialLogo to="/"> HYPNO ENERGY BY HERITAGE </SocialLogo>
-                    <WebsiteRights>HYPNO © {new Date().getFullYear()}
-                    All rights reserved.</WebsiteRights>
+                    <SocialLogo to="/"> Hypno Energy By Heritage </SocialLogo>
+                    <WebsiteRights>HYPNO ENERGY DRINK © {new Date().getFullYear()} - 
+                        All rights reserved.</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href="https://www.facebook.com/hypnoenergyug" target="_blank" arial-label="Facebook">
                             <FaFacebook/>
