@@ -13,8 +13,8 @@ const Footer = () => {
                      <FooterLinkTitle>ABOUT HYPNO</FooterLinkTitle>
                      <FooterLink to="/about-us">History</FooterLink>
                      <FooterLink to="/about-us">Our Product</FooterLink>
-                     <FooterLink to="/about-us">Testimonials</FooterLink>
-                     <FooterLink to="/about-us">Terms and Conditions</FooterLink>
+                     {/* <FooterLink to="/about-us">Testimonials</FooterLink>
+                     <FooterLink to="/about-us">Terms and Conditions</FooterLink> */}
                  </FooterLinkItems>
 
                  <FooterLinkItems>
@@ -23,8 +23,8 @@ const Footer = () => {
    
                      <FooterLink to="/about-us">Contact Us</FooterLink>
                      <FooterLink to="/about-us">Find a wholesaler near you</FooterLink>
-                     <FooterLink to="/about-us">Roasted Coffee</FooterLink>
-                     <FooterLink to="/about-us">Roastery</FooterLink>
+                     {/* <FooterLink to="/about-us">Roasted Coffee</FooterLink> */}
+                     {/* <FooterLink to="/about-us">Roastery</FooterLink> */}
                      
 
                  </FooterLinkItems>
@@ -40,8 +40,8 @@ const Footer = () => {
    
                      <FooterLink to="/about-us">Caffeine</FooterLink>
                      <FooterLink to="/about-us">B Group vitamins</FooterLink>
-                     <FooterLink to="/about-us">Sugar</FooterLink>
-                     <FooterLink to="/about-us">Taurine</FooterLink>
+                     {/* <FooterLink to="/about-us">Sugar</FooterLink>
+                     <FooterLink to="/about-us">Taurine</FooterLink> */}
                      
 
                  </FooterLinkItems>
@@ -52,8 +52,8 @@ const Footer = () => {
    
                      <FooterLink to="/about-us">Contact us</FooterLink>
                      <FooterLink to="/about-us">Blog</FooterLink>
-                     <FooterLink to="/about-us">Hypno Merchandise</FooterLink>
-                     <FooterLink to="/about-us">Careers</FooterLink>
+                     {/* <FooterLink to="/about-us">Hypno Merchandise</FooterLink>
+                     <FooterLink to="/about-us">Careers</FooterLink> */}
                      
 
                  </FooterLinkItems>
@@ -68,7 +68,7 @@ const Footer = () => {
                     <WebsiteRights>HYPNO © {new Date().getFullYear()}
                     All rights reserved.</WebsiteRights>
                     <SocialIcons>
-                        <SocialIconLink href="https://www.facebook.com/hypnoug" target="_blank" arial-label="Facebook">
+                        <SocialIconLink href="https://www.facebook.com/hypnoenergyug" target="_blank" arial-label="Facebook">
                             <FaFacebook/>
                         </SocialIconLink>
                         <SocialIconLink href="https://www.instagram.com/hypnoenergyug/" target="_blank" arial-label="Instagram">
