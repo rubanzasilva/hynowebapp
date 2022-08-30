@@ -90,7 +90,7 @@ export const GridWrapper = styled.ul`
  background-color:#000;
  list-style-type:none;
  margin:56px;
- ${'' /* padding:56px; */}
+ padding:56px;
  
 @media screen and (max-width:960px) {
     grid-template-columns:1fr;
