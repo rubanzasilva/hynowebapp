@@ -12,7 +12,7 @@ const SectionB = ({title,headline,description,img,alt}) => {
         
 
 
-        <GridWrapper >
+        <GridWrapper id='section-B-gridWrapper' >
 
 <GridItem>
 
@@ -23,7 +23,6 @@ const SectionB = ({title,headline,description,img,alt}) => {
 
     
         <GridItem >
-        <SectionText>
                     
                      <Title  style={{color:"#fff",font:"Roboto",fontSize:"72px"}}>{title}</Title>
                      
@@ -32,12 +31,7 @@ const SectionB = ({title,headline,description,img,alt}) => {
                      <BtnWrap>
                      <Button type="link" size="large"  href='https://www.jumia.ug/hypno-energy-drink-250-ml-can-32244325.html' style={{color:"red",background:"#000",
                        borderRadius:"6px",minWidth:"100px" }}>Contact Us</Button><br></br>
-                     {/* <Button type="primary" size="large" style={{background:"#cf1322",
-                      borderColor:"red",minWidth:"200px" , borderRadius:"6px" }}>
-                         Learn more
-                     </Button> */}
                      </BtnWrap>
-                 </SectionText>
         
         </GridItem>
     
