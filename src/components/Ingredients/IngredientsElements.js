@@ -1,11 +1,7 @@
 import styled from "styled-components";
 
 
-// export const GridContainer = styled.div`
-//  height:800px;
-//  width:1200px;
-//  display:grid;
-// `
+
 export const GridWrapper = styled.ul`
  ${'' /* display:grid;
  grid-template-columns:1fr 1fr;
@@ -37,9 +33,10 @@ export const GridWrapper = styled.ul`
 
 export const GridItem = styled.li`
 background-color:#000;
-width:96%;
-height:90%;
+${'' /* width:80%; */}
+height:auto;
 text-align:center;
+padding:64px;
 
 .Collapse{  background-color:#000;  }   
 
@@ -63,7 +60,7 @@ export const SectionText = styled.div`
 
 //column 2
 export const ImgWrap = styled.div`
-    margin:auto;
+    ${'' /* margin:auto;
  display:flex; 
  flex-direction:row;
  flex-wrap:wrap;
@@ -74,14 +71,22 @@ export const ImgWrap = styled.div`
  left:0;
  padding-bottom:64px;
  height:600px;
- width:600px;
+ width:600px; */}
+
+ margin:auto;
+ display:flex; 
+ flex-direction:row;
+ flex-wrap:wrap;
+ justify-content:space-around;
+ align-items:center;
+ text-align:center;
 
  @media screen and (max-width: 968px) {
-        flex-basis:100%;
+        ${'' /* flex-basis:100%;
         padding:0px;
         margin:0px;
         margin-top:-64px;
-        margin-bottom:64px;
+        margin-bottom:64px; */}
     }
 `
 
@@ -122,5 +127,18 @@ export const SectionCollapse = styled.div`
 background:red;
 color:red;
 font-color:red;
+margin:auto;
+   width:100%;
+   height:100%;
+   object-fit:contain;
+   left:0;
+ display:flex; 
+ flex-wrap:wrap;
+
+ @media screen and (max-width:720px) {
+     flex-direction:column;
+     align-items:center;
+
+ }
 
 `
