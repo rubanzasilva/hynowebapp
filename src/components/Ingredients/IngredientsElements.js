@@ -36,7 +36,17 @@ background-color:#000;
 ${'' /* width:80%; */}
 height:auto;
 text-align:center;
-padding:64px;
+${'' /* padding:64px; */}
+padding:56px;
+ 
+@media screen and (max-width:960px) {
+    grid-template-columns:1fr;
+    align-items:Center;
+    text-align:Center;
+    margin:16px;
+    padding:56px 16px 56px 16px;
+   
+}
 
 .Collapse{  background-color:#000;  }   
 
