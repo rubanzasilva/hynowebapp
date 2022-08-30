@@ -90,18 +90,17 @@ export const GridWrapper = styled.ul`
  background-color:#000;
  list-style-type:none;
  margin:56px;
- padding:56px;
+ ${'' /* padding:56px; */}
  
 @media screen and (max-width:960px) {
     grid-template-columns:1fr;
     align-items:Center;
     text-align:Center;
     margin:16px;
-    padding-top:56px;
-    padding-bottom:56px;
+    padding:56px 16px 56px 16px;
+   
 }
 `
-
 
 export const GridItem = styled.li`
 background-color:#000;
@@ -119,29 +118,26 @@ text-align:center;
     }
 }
 
-
-
 `
 
-export const SectionText = styled.div`
-    margin:auto;
- line-height:75px;
- display:flex;
- flex-direction:column;
- text-align:center;
- align-content:center;
- padding:64px;
+
+// //column 2
+// export const ImgWrap = styled.div`
+//     margin:auto;
+//  display:flex; 
+//  flex-direction:row;
+//  flex-wrap:wrap;
+//  justify-content:space-around;
+//  align-items:center;
+//  text-align:center;
 
 
- @media screen and (max-width:780px) {
+//  @media screen and (max-width: 968px) {
+//     }
+// `
 
- }
-
-`
-
-//column 2
 export const ImgWrap = styled.div`
-    margin:auto;
+ margin:auto;
  display:flex; 
  flex-direction:row;
  flex-wrap:wrap;
@@ -149,8 +145,10 @@ export const ImgWrap = styled.div`
  align-items:center;
  text-align:center;
 
-
  @media screen and (max-width: 968px) {
+        flex-basis:100%;
+        margin-top:64px;
+        margin-bottom:64px;
     }
 `
 
@@ -158,9 +156,8 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
     margin:auto;
    width:100%;
-   height:600px;
+   height:100%;
    object-fit:contain;
-   left:0;
  display:flex; 
  flex-wrap:wrap;
 
@@ -168,8 +165,7 @@ export const Img = styled.img`
  @media screen and (max-width:720px) {
      flex-direction:column;
      align-items:center;
-     margin-top:-180px;
-
+     margin-top:0;
  }
 `
 

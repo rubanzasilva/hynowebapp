@@ -15,7 +15,7 @@ const Section = ({title,headline,description,img,alt}) => {
         <GridItem id='section A grid Wrapper' >
       
                     
-                     <Title  style={{color:"#fff",font:"Roboto",fontSize:"72px"}}>{title}</Title>
+                     <Title  style={{color:"#fff",font:"Roboto",fontSize:"3.5rem"}}>{title}</Title>
                      
                          <Title level={2} style={{color:"white"}}>{headline}</Title>
                      
