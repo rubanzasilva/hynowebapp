@@ -20,13 +20,13 @@ const SideBar = ({isOpen,toggle}) => {
                     Shop
                     </SideBarLink>
 
-                    <SideBarLink to="/cart" onClick={toggle}>
+                    <SideBarLink to="https://www.jumia.ug/hypno-energy-drink-250-ml-can-32244325.html" onClick={toggle}>
                     Cart
                     </SideBarLink>
 
                     <SideBtnWrap>
                         <SideBarRoute to="/signup">
-                            Sign Up
+                            Contact Us
                         </SideBarRoute>
                     </SideBtnWrap>
                 </SideBarMenu>
