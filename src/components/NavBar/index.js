@@ -22,18 +22,19 @@ const NavBar = ({toggle}) => {
 
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="/About ">About Hypno Energy</NavLinks>
+                          <NavLinks to="/contactUs ">About Hypno Energy</NavLinks>
                       </NavItem>
                       
                    
 
-                      <NavItem>
-                          <NavLinks to="/Shop">Events</NavLinks>
-                      </NavItem>
 
                       <NavItem>
-                          <NavLinks to="/Cart">Become Distributor</NavLinks>
+                          <NavLinks to="/contactUs">Become Distributor</NavLinks>
                       </NavItem>
+
+                      {/* <NavItem>
+                          <NavLinks to='' href='https://www.instagram.com/hypnoenergyug'>Gallery</NavLinks>
+                      </NavItem> */}
 
                       <NavItem>
                           <NavLinks to="/contactUs">Contact Us</NavLinks>

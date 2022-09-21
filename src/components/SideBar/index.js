@@ -12,7 +12,7 @@ const SideBar = ({isOpen,toggle}) => {
 
             <SideBarWrapper>
                 <SideBarMenu>
-                    <SideBarLink to="/About" onClick={toggle}>
+                    <SideBarLink to="/contactUs" onClick={toggle}>
                     About HYPNO
                     </SideBarLink>
                     
@@ -25,7 +25,7 @@ const SideBar = ({isOpen,toggle}) => {
                     </SideBarLink>
 
                     <SideBtnWrap>
-                        <SideBarRoute to="/signup">
+                        <SideBarRoute to="/contactUs">
                             Contact Us
                         </SideBarRoute>
                     </SideBtnWrap>
